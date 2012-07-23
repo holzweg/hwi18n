@@ -94,7 +94,7 @@ class HwTranslationSecurity
     protected static function getIni()
     {
         if(self::$_ini === null) {
-            self::$_ini = eZINI::instance('hwinlinetranslate.ini');
+            self::$_ini = eZINI::instance('hwi18n.ini');
         }
 
         return self::$_ini;
